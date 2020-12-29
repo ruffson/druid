@@ -38,6 +38,11 @@ hdr = ["piet-common/hdr"]
 [dependencies]
 # NOTE: When changing the piet or kurbo versions, ensure that
 #       the kurbo version included in piet is compatible with the kurbo version specified here.
+<<<<<<< HEAD
+=======
+piet-common = { git="https://github.com/ruffson/piet.git", branch="improved_grayscale", version = "=0.3.2"}
+kurbo = "0.7.1"
+>>>>>>> 89ba4b30 (Change the piet branch)
 
 tracing = "0.1.22"
 lazy_static = "1.4.0"
