@@ -38,7 +38,7 @@ hdr = ["piet-common/hdr"]
 [dependencies]
 # NOTE: When changing the piet or kurbo versions, ensure that
 #       the kurbo version included in piet is compatible with the kurbo version specified here.
-piet-common = { git="https://github.com/ruffson/piet.git", branch="improved_grayscale", version = "=0.3.2"}
+piet-common = { git="https://github.com/ruffson/piet.git", branch="fixed_celeste_grayscale", version = "=0.3.2"}
 kurbo = "0.7.1"
 
 tracing = "0.1.22"
@@ -96,7 +96,7 @@ version = "0.3.44"
 features = ["Window", "MouseEvent", "CssStyleDeclaration", "WheelEvent", "KeyEvent", "KeyboardEvent"]
 
 [dev-dependencies]
-piet-common = { version = "=0.3.2", git="https://github.com/ruffson/piet.git", branch="improved_grayscale", features = ["png"] }
+piet-common = { version = "=0.3.2", git="https://github.com/ruffson/piet.git", branch="fixed_celeste_grayscale", features = ["png"] }
 static_assertions = "1.1.0"
 test-env-log = { version = "0.2.5", features = ["trace"], default-features = false }
 tracing-subscriber = "0.2.15"
